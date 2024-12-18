@@ -1,0 +1,76 @@
+body{
+    margin:10px;
+    background-color:white;
+}
+.HeaderColumnLeft{
+background-image: url("brown\ coffee.jpeg");
+background-repeat: no-repeat;
+float: left;
+width: 100%;
+height: 22vh;
+}
+.HeaderColumnRight{
+    overflow: auto;
+    background-color:rgb(95, 44, 44);
+    float:right;
+    height:22vh;
+    width:60%;
+    /*this is the section that made it the copy right section move upwards*/
+    position:relative;
+    top: -190px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topnav{
+    overflow: hidden;
+    background-color:rgb(95,44,44);
+    padding-inline: 25%;
+    padding-bottom: 0%;
+    position: relative;
+    top:-180px
+    
+
+}
+
+.topnav a{
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    color:beige;
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size:13px;
+    text-decoration: none;
+    display:block;
+}
+.topnav a:hover{
+    background-color: black;
+    color:beige;
+}
+.topnav a.active{
+    /*this section was removed because it would only point out the home page so i removed it to not confuse*/
+    color:beige;
+}
+
+.MapTitle{
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+margin-left:50px;
+}
+.side{
+    flex:30%;
+    background-color:rgb(95, 44, 44);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top:-120px;
+}
+.main{
+    flex:70%;
+    background-color: rgb(95, 44, 44);
+    font-size: 30px;
+    position:relative;
+    top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
